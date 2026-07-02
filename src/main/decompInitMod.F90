@@ -1,4 +1,4 @@
- module decompInitMod
+module decompInitMod
 
 #include "shr_assert.h"
 
