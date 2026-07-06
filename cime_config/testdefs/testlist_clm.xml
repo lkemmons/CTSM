@@ -4556,7 +4556,7 @@
       <machine name="derecho" compiler="intel" category="uhr_decomp_init"/>
     </machines>
     <options>
-      <option name="wallclock">1:00:00</option>
+      <option name="wallclock">0:15:00</option>
       <option name="comment">Initialization test for mpasa3p75 "Large" layout</option>
     </options>
   </test>
@@ -4565,7 +4565,7 @@
       <machine name="derecho" compiler="intel" category="uhr_decomp_init"/>
     </machines>
     <options>
-      <option name="wallclock">1:00:00</option>
+      <option name="wallclock">0:15:00</option>
       <option name="comment">Initialization test for mpasa3p75 with "Large" high-memory layout with high memory by only using 80 processors per node</option>
     </options>
   </test>
