@@ -4545,6 +4545,7 @@
   <test name="SMS_Ln1" grid="mpasa3p75_mpasa3p75_mt13" compset="I2000Clm45Sp" testmods="clm-for_testing_fastsetup_bypassrun--clm-mpasa3p75">
     <machines>
       <machine name="derecho" compiler="intel" category="uhr_decomp_init"/>
+      <machine name="derecho" compiler="intel" category="ctsm_sci"/>
     </machines>
     <options>
       <option name="wallclock">0:15:00</option>
