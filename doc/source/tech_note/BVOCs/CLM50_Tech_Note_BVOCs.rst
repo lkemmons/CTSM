@@ -67,7 +67,7 @@ where :math:`T_{leaf}` denotes the leaf temperature, :math:`R` is the gas consta
    C_{g} = 95 + 9.49 e^{0.53 (288.15-T_{240})}
 
 
-Dry deposition of gases
+Dry deposition of atmospheric gases
 ===============================================
 
 Dry deposition is represented following the Wesely resistance approach as described in Lamarque et al. (GMD, doi:10.5194/gmd-5-369-2012, 2012). 
@@ -82,3 +82,6 @@ The computation of surface resistances in CLM leads to a representation at the l
 for deposition velocities. The grid-averaged velocity is computed as the weighted-mean over all land cover types available at each grid
 point. This ensures that the impact on deposition velocities from changes in land cover, land use or climate is taken into account. 
 All species in the atmospheric chemical mechanism are by default affected by dry deposition if deposition velocities are defined in the model.
+
+Dry deposition of ozone also includes stomatal uptake, initially described in Val Martin et al. (GRL, doi:10.1002/2014GL059651, 2014) and updated in Emmons et al. (JAMES, doi:10.1029/2019MS001882, 2020).
+
