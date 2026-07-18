@@ -1,5 +1,8 @@
 .. _rst_Biogenic Volatile Organic Compounds (BVOCs):
 
+This section describes (1) emissions of volatile organic compounds from vegetation and (2) dry deposition of atmospheric gases.  
+These processes are needed for atmospheric composition simulations, but do not affect the land state.
+
 Biogenic Volatile Organic Compounds (BVOCs)
 ===============================================
 
@@ -63,3 +66,16 @@ where :math:`T_{leaf}` denotes the leaf temperature, :math:`R` is the gas consta
    :label: C3 arctic grass parameter
 
    C_{g} = 95 + 9.49 e^{0.53 (288.15-T_{240})}
+
+
+Dry Deposition of Gases in the Atmosphere
+=========================================
+
+Dry deposition is represented following the Wesely resistance approach as described in Lamarque et al. (2012). Following this approach, all deposited chemical species (the specific list of deposited species depends on the chemical mechanism used) are mapped to a weighted-combination of ozone and sulfur dioxide depositions; this combination represents a definition of the ability of each considered species to oxidize or to be taken up by water. In particular, the latter is dependent on the effective Henry’s law coefficient. While this weighting is applicable to many species, we have included specific representations for CO/H_{2} and peroxyacetylnitrate (PAN). Furthermore, it is assumed that the surface resistance for SO_{2} can be neglected. See Lamarque et al. (2012) for details and additional references.
+
+The computation of surface resistances in CLM leads to a representation at the level of each plant functional type of the various drivers for deposition velocities. The grid-averaged velocity is computed as the weighted-mean over all land cover types available at each grid point. This ensures that the impact on deposition velocities from changes in land cover, land use or climate is taken into account. All species in the atmospheric chemical mechanism are by default affected by dry deposition if deposition velocities are defined in the model.
+
+Dry deposition of ozone also includes stomatal uptake, initially described in Val Martin et al. (2014) and updated in Emmons et al. (2020).
+
+
+
