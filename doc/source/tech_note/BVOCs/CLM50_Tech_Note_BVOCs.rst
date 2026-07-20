@@ -7,7 +7,7 @@ This section describes (1) emissions of volatile organic compounds from vegetati
 These processes are needed for atmospheric composition simulations, but do not affect the land state.
 
 Biogenic Volatile Organic Compounds (BVOCs)
-===============================================
+-------------------------------------------
 
 This section briefly describes the biogenic volatile organic compound (BVOC) emissions model implemented in CLM. The CLM3 version (:ref:`Levis et al. 2003 <Levisetal2003>`; :ref:`Oleson et al. 2004 <Olesonetal2004>`) was based on :ref:`Guenther et al. (1995) <Guentheretal1995>`. :ref:`Heald et al. (2008) <Healdetal2008>` updated this scheme in CLM4 based on :ref:`Guenther et al (2006) <Guentheretal2006>`. The current version was first implemented in CLM4.5 and is currently based on MEGAN2.1 discussed in detail in :ref:`Guenther et al. (2012) <Guentheretal2012>`. As of CLM5, CLM-MEGAN has included these features: 1) expansion to 147 chemical compounds, 2) the treatment of the light-dependent fraction (LDF) for each compound, 3) inclusion of the inhibition of isoprene emission by atmospheric CO\ :sub:`2`, 4) emission factors mapped to the specific PFTs of the CLM. As of CLM6, CLM-MEGAN includes two new features: 5) the impact of drought, and 6) high-latitude specific isoprene emissions.
 
@@ -72,7 +72,7 @@ where :math:`T_{leaf}` denotes the leaf temperature, :math:`R` is the gas consta
 
 
 Dry Deposition of Gases in the Atmosphere
-=========================================
+-----------------------------------------
 
 Dry deposition is represented following the Wesely resistance approach as described in :ref:`Lamarque et al. (2012) <Lamarqueetal2012>`. Following this approach, all deposited chemical species (the specific list of deposited species depends on the chemical mechanism used) are mapped to a weighted-combination of ozone and sulfur dioxide depositions; this combination represents a definition of the ability of each considered species to oxidize or to be taken up by water. In particular, the latter is dependent on the effective Henry's law coefficient. While this weighting is applicable to many species, we have included specific representations for CO/H\ :sub:`2` and peroxyacetylnitrate (PAN). Furthermore, it is assumed that the surface resistance for SO\ :sub:`2` can be neglected. See :ref:`Lamarque et al. (2012) <Lamarqueetal2012>` for details and additional references.
 
