@@ -1,7 +1,7 @@
 .. _rst_Biogenic Volatile Organic Compounds (BVOCs) and Dry Dep:
 
 Biogenic Volatile Organic Compounds (BVOCs) and Dry Deposition of Atmospheric Gases
-===============================================
+===================================================================================
 
 This section describes (1) emissions of volatile organic compounds from vegetation and (2) dry deposition of atmospheric gases.  
 These processes are needed for atmospheric composition simulations, but do not affect the land state.
@@ -78,5 +78,5 @@ Dry deposition is represented following the Wesely resistance approach as descri
 
 The computation of surface resistances in CLM leads to a representation at the level of each plant functional type of the various drivers for deposition velocities. The grid-averaged velocity is computed as the weighted-mean over all land cover types available at each grid point. This ensures that the impact on deposition velocities from changes in land cover, land use or climate is taken into account. All species in the atmospheric chemical mechanism are by default affected by dry deposition if deposition velocities are defined in the model.
 
-Dry deposition of ozone also includes stomatal uptake, initially described in :ref:`Val Martin et al. (2014) <valmartinetal2014>` and updated in :ref:`Emmons et al. (2020) <Emmonsetal2020>`.
+Dry deposition of ozone also includes stomatal uptake, initially described in :ref:`Val Martin et al. (2014) <Valmartinetal2014>` and updated in :ref:`Emmons et al. (2020) <Emmonsetal2020>`.
 
