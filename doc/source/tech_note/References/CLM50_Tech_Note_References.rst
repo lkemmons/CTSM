@@ -1678,7 +1678,7 @@ Uriarte, M. et al., 2009. Natural disturbance and human land use as determinants
 
 Vallano, D.M. and Sparks, J.P. 2007. Quantifying foliar uptake of gaseous itrogen dioxide using enriched foliar :math:`\delta^{15}`\  N values. New Phytologist 177:946-955.
 
-.. _Valmartinetal2014:
+.. _ValMartinetal2014:
 
 Val Martin, M., Heald, C. L. and Arnold, S. R.  2014. Coupling dry deposition to vegetation phenology in the Community Earth System Model: Implications for the simulation of surface O3, Geophys. Res. Lett., 41, 2988–2996, doi:10.1002/2014GL059651.
 
