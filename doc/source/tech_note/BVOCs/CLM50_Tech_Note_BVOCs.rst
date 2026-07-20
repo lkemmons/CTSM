@@ -1,6 +1,6 @@
-.. _rst_Biogenic Volatile Organic Compounds (BVOCs):
+.. _rst_Biogenic Volatile Organic Compounds (BVOCs) and Dry Dep:
 
-Biogenic Volatile Organic Compounds (BVOCs)
+Biogenic Volatile Organic Compounds (BVOCs) and Dry Deposition of Atmospheric Gases
 ===============================================
 
 This section describes (1) emissions of volatile organic compounds from vegetation and (2) dry deposition of atmospheric gases.  
