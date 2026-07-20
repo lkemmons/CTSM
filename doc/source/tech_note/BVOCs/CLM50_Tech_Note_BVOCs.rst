@@ -1,5 +1,8 @@
 .. _rst_Biogenic Volatile Organic Compounds (BVOCs):
 
+Biogenic Volatile Organic Compounds (BVOCs)
+===============================================
+
 This section describes (1) emissions of volatile organic compounds from vegetation and (2) dry deposition of atmospheric gases.  
 These processes are needed for atmospheric composition simulations, but do not affect the land state.
 
